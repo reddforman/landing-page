@@ -34,11 +34,50 @@ body {
 /* HEADER */
 
 
+/* TOP */
+.top {
+  background: #1F2937;
+  color: white;
+  display: flex;
+  padding: 20px 200px;
+  
+}
+
+.left {
+
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.left p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+}
+
+.left button {
+  background-color: #3882F6;
+  color: white;
+  font-size: 14px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  list-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #3882F6;
+}
+
+.right img{
+  width: 420px;
+  height: 200px;
+  margin-left: 50px;
+}
 
 
-
-
-
+/* TOP */
 
 
 
