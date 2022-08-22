@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
   padding: 30px 200px;
+  padding-top: 0;
 }
 
 .header ul {
@@ -167,6 +168,7 @@ h1 {
 .box {
   background-color: #3882F6;
   border-radius: 5px;
+  display: flex;
   padding: 30px 20px;
 }
 
@@ -191,6 +193,12 @@ ul {
   border: 2px solid white;
 }
 
+.bottom2 .box .right {
+  display: flex;
+  margin-left: 80px;
+  align-items: center;
+}
+
 /* BOTTOM2*/
 
 
@@ -202,13 +210,26 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em 0;
+    margin-top: auto;
+    font-size: medium;
 }
 
 /* FOOTER*/
 
+/**/
+a {
+  text-decoration: none;
+  color: white;
+}
 
-* {
+a:hover, a:active { 
+  text-decoration: none; color:rgb(0, 238, 255); 
+}
+/*a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }*/
+
+/* {
   border: 2px solid red;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
